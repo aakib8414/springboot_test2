@@ -1,0 +1,14 @@
+package com.test.test1;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+
+@SpringBootTest
+class Test1ApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+}

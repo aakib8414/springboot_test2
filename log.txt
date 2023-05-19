@@ -1,0 +1,90 @@
+2023-05-17 10:44:11 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 172272 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-05-17 10:44:11 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-05-17 10:44:11 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 10:44:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17 10:44:15 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-05-17 10:44:15 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-05-17 10:44:16 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-05-17 10:44:16 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-05-17 10:44:16 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 6.352 seconds (process running for 7.491)
+2023-05-17 10:44:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6f981d51
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@12f4aa8e
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-05-17 10:44:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/demo/c2", parameters={}
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.demo.ControllerDemo#getCategory(String)
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG com.test.test1.demo.ControllerDemo - data is: Electronics
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.test.test1.demo.Category@19121100]
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
+2023-05-17 10:44:32 [http-nio-8080-exec-1] WARN  c.test.test1.advice.ControllerAdvice - Response already committed. Ignoring: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError)
+2023-05-17 10:44:32 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError)]
+2023-05-17 10:44:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2023-05-17 10:44:34 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/demo/c2", parameters={}
+2023-05-17 10:44:34 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.demo.ControllerDemo#getCategory(String)
+2023-05-17 10:44:34 [http-nio-8080-exec-3] DEBUG com.test.test1.demo.ControllerDemo - data is: Electronics
+2023-05-17 10:44:34 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-05-17 10:44:34 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.test.test1.demo.Category@577e3bda]
+2023-05-17 10:44:34 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
+2023-05-17 10:44:34 [http-nio-8080-exec-3] WARN  c.test.test1.advice.ControllerAdvice - Response already committed. Ignoring: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError)
+2023-05-17 10:44:34 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError)]
+2023-05-17 10:44:34 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2023-05-17 10:44:42 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/demo/c2", parameters={}
+2023-05-17 10:44:42 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.demo.ControllerDemo#getCategory(String)
+2023-05-17 10:44:42 [http-nio-8080-exec-4] DEBUG com.test.test1.demo.ControllerDemo - data is: Electronics
+2023-05-17 10:44:42 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-05-17 10:44:42 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.test.test1.demo.Category@768f092]
+2023-05-17 10:44:42 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
+2023-05-17 10:44:42 [http-nio-8080-exec-4] WARN  c.test.test1.advice.ControllerAdvice - Response already committed. Ignoring: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError)
+2023-05-17 10:44:42 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError)]
+2023-05-17 10:44:42 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2023-05-17 10:45:29 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 172573 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-05-17 10:45:29 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-05-17 10:45:29 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 10:45:34 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17 10:45:34 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-05-17 10:45:35 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-05-17 10:45:35 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-05-17 10:45:35 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-05-17 10:45:36 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 7.377 seconds (process running for 8.619)
+2023-05-17 10:45:36 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 10:45:36 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-05-17 10:45:36 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-05-17 10:45:36 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-05-17 10:45:36 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@53cf3760
+2023-05-17 10:45:36 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@64fac8df
+2023-05-17 10:45:36 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-05-17 10:45:36 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-17 10:45:36 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/demo/c2", parameters={}
+2023-05-17 10:45:36 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.demo.ControllerDemo#getCategory(String)
+2023-05-17 10:45:37 [http-nio-8080-exec-2] DEBUG com.test.test1.demo.ControllerDemo - data is: Electronics
+2023-05-17 10:45:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-05-17 10:45:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.test.test1.demo.Category@c574f0d]
+2023-05-17 10:45:37 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2023-05-17 10:46:09 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 172815 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-05-17 10:46:09 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-05-17 10:46:09 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 10:46:14 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17 10:46:15 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-05-17 10:46:15 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-05-17 10:46:15 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-05-17 10:46:15 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-05-17 10:46:16 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 7.948 seconds (process running for 9.058)
+2023-05-17 10:46:16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5efdf383
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3bbb83a7
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-05-17 10:46:16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/demo/c2", parameters={}
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.demo.ControllerDemo#getCategory(String)
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG com.test.test1.demo.ControllerDemo - data is: Electronics
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.test.test1.demo.Category@1c94e26e]
+2023-05-17 10:46:16 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
