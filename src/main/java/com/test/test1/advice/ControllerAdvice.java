@@ -65,15 +65,6 @@ public class ControllerAdvice extends ResponseEntityExceptionHandler {
 //        return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
 //    }
 
-//    @Override
-//    protected ResponseEntity<Object> handleMethodArgumentNotValid(
-//            MethodArgumentNotValidException ex,
-//            HttpHeaders headers,
-//            HttpStatusCode status,
-//            WebRequest request) {
-//        var apiError = new ApiError(HttpStatus.resolve(status.value()), ex.getMessage());
-//        return new ResponseEntity<>(apiError, status);
-
     @ExceptionHandler(RuntimeException.class)
     public ResponseEntity<Object> handleRuntimeException(RuntimeException exception) {
 
