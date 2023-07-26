@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+import org.modelmapper.ModelMapper;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,7 +35,7 @@ class DeptServiceTest {
     @BeforeEach
     void setUp() {
         autoCloseable = MockitoAnnotations.openMocks(this);
-        serviice = new DeptService(repository);
+        serviice = new DeptService(repository,new ModelMapper());
         department = new Department(Long.valueOf(1), "CSE", "Hyderabad", "TS001");
     }
 

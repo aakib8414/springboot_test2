@@ -8,6 +8,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
@@ -63,7 +64,7 @@ public class DepartmentController {
     }
 
     @PutMapping("{id}")
-    public ResponseEntity<Department> updateDepartment(@PathVariable("id") long id, @RequestBody Department department) {
+    public ResponseEntity<Department> updateDepartment(@PathVariable("id") long id, @Valid @RequestBody Department department) {
         Department updatedDept = service.updateDepartmentById(department, id);
         return ResponseEntity.ok(updatedDept);
     }
