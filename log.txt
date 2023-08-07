@@ -1,721 +1,300 @@
-2023-07-26 14:34:10 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 12036 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 14:34:10 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 14:34:10 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 14:34:16 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 14:34:16 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 14:34:16 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 14:34:17 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 14:34:17 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 14:34:17 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 8.64 seconds (process running for 9.702)
-2023-07-26 14:34:33 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 12217 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 14:34:33 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 14:34:33 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 14:34:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 14:34:40 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 14:34:40 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 14:34:41 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 14:34:41 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 14:34:41 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 9.308 seconds (process running for 10.312)
-2023-07-26 14:35:30 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 14:35:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 14:35:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 14:35:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 14:35:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7a654af7
-2023-07-26 14:35:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@23f657b1
-2023-07-26 14:35:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 14:35:30 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-2023-07-26 14:35:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:35:30 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:35:31 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:35:31 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:35:31 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:36:45 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:36:45 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:36:45 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:36:45 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:36:45 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:48:24 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 13329 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 14:48:24 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 14:48:24 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 14:48:29 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController' defined in file [/home/aakib/Pictures/test/test1/target/classes/com/test/test1/controller/DepartmentController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'deptService' defined in file [/home/aakib/Pictures/test/test1/target/classes/com/test/test1/service/DeptService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'modelMapper' defined in class path resource [com/test/test1/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'modelMapper' parameter 0: Error creating bean with name 'modelMapper': Requested bean is currently in creation: Is there an unresolvable circular reference?
-2023-07-26 14:48:30 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-The dependencies of some of the beans in the application context form a cycle:
-
-   departmentController defined in file [/home/aakib/Pictures/test/test1/target/classes/com/test/test1/controller/DepartmentController.class]
-      ↓
-   deptService defined in file [/home/aakib/Pictures/test/test1/target/classes/com/test/test1/service/DeptService.class]
-┌─────┐
-|  modelMapper defined in class path resource [com/test/test1/config/RedisConfig.class]
-└─────┘
-
-
-Action:
-
-Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
-
-2023-07-26 14:49:43 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 13460 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 14:49:43 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 14:49:43 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 14:49:50 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 14:49:50 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 14:49:50 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 14:49:51 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 14:49:51 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 14:49:52 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 9.397 seconds (process running for 10.369)
-2023-07-26 14:50:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6df88130
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3eb67441
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 14:50:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments/1", parameters={}
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 14:50:15 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - Request method 'GET' is not supported
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/problem+json', given [*/*] and supported [application/problem+json]
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProblemDetail[type='about:blank', title='Method Not Allowed', status=405, detail='Method 'GET' is no (truncated)...]
-2023-07-26 14:50:15 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2023-07-26 14:50:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
-2023-07-26 14:50:55 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:50:55 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:50:56 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:50:56 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:50:56 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:52:01 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 14:52:01 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 14:52:01 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002)]
-2023-07-26 14:52:53 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s716ms283µs520ns).
-2023-07-26 14:52:53 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:52:53 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Department(id=null, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002)]
-2023-07-26 14:52:53 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:53:24 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 13751 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 14:53:24 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 14:53:24 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 14:53:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 14:53:31 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 14:53:31 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 14:53:32 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 14:53:32 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 14:53:33 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 9.558 seconds (process running for 10.654)
-2023-07-26 14:53:53 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 14:53:53 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 14:53:53 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 14:53:53 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 14:53:53 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@115818e2
-2023-07-26 14:53:53 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6b734d64
-2023-07-26 14:53:53 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 14:53:53 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-2023-07-26 14:53:53 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 14:53:53 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 14:53:53 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002)]
-2023-07-26 14:54:09 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleRuntimeException(RuntimeException)
-2023-07-26 14:54:09 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
-2023-07-26 14:54:09 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["identifier of an instance of com.test.test1.entity.Department was altered from null to 1"]
-2023-07-26 14:54:09 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.orm.jpa.JpaSystemException: identifier of an instance of com.test.test1.entity.Department was altered from null to 1]
-2023-07-26 14:54:09 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 14:55:02 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 13939 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 14:55:02 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 14:55:02 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 14:55:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 14:55:09 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 14:55:09 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 14:55:10 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 14:55:10 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 14:55:10 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 9.425 seconds (process running for 10.499)
-2023-07-26 14:55:24 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@696693c1
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@40bb555a
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 14:55:24 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002)]
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Department(id=1, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002)]
-2023-07-26 14:55:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:55:40 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:55:40 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:55:40 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:55:40 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:55:40 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:56:53 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:56:53 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:56:53 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:56:53 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:56:53 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:56:54 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:56:54 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:56:54 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:56:54 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:56:54 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:56:55 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:56:55 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:56:55 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:56:55 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:56:55 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:57:06 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 14378 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 14:57:06 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 14:57:06 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 14:57:13 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 14:57:14 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 14:57:14 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 14:57:15 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 14:57:15 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 14:57:15 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 9.897 seconds (process running for 11.077)
-2023-07-26 14:58:12 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 14:58:12 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 14:58:12 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 14:58:12 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 14:58:12 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@617377a8
-2023-07-26 14:58:12 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@492c8eda
-2023-07-26 14:58:12 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 14:58:12 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-2023-07-26 14:58:12 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:58:12 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:58:13 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:58:13 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:58:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:58:56 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 14571 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 14:58:56 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 14:58:56 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 14:59:04 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 14:59:04 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 14:59:04 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 14:59:05 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 14:59:05 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 14:59:06 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 11.966 seconds (process running for 13.186)
-2023-07-26 14:59:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3a2e9e95
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@628d7450
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 14:59:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:59:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 14:59:15 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 14:59:15 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 14:59:15 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 14:59:15 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE1, departmentAddress=MANUU HYDERABAD, departmentCode=TS002), Dep (truncated)...]
-2023-07-26 14:59:15 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 15:00:14 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:00:14 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:00:14 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002)]
-2023-07-26 15:00:14 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:00:14 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Department(id=1, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002)]
-2023-07-26 15:00:14 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 15:00:20 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments/1", parameters={}
-2023-07-26 15:00:20 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:00:20 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - Request method 'GET' is not supported
-2023-07-26 15:00:20 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/problem+json', given [*/*] and supported [application/problem+json]
-2023-07-26 15:00:20 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProblemDetail[type='about:blank', title='Method Not Allowed', status=405, detail='Method 'GET' is no (truncated)...]
-2023-07-26 15:00:20 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2023-07-26 15:00:20 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
-2023-07-26 15:00:26 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 15:00:26 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 15:00:27 [http-nio-8080-exec-6] INFO  com.test.test1.service.DeptService - Calling service to get Data from db 
-2023-07-26 15:00:27 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:00:27 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002), Depa (truncated)...]
-2023-07-26 15:00:27 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 15:00:32 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 15:00:32 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 15:00:32 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:00:32 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002), Depa (truncated)...]
-2023-07-26 15:00:32 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 15:03:03 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 14820 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 15:03:03 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 15:03:03 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 15:03:11 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 15:03:11 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 15:03:12 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 15:03:12 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 15:03:12 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 15:03:13 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.756 seconds (process running for 11.735)
-2023-07-26 15:03:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 15:03:23 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 15:03:23 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 15:03:23 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 15:03:23 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6db962ea
-2023-07-26 15:03:23 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@36f08550
-2023-07-26 15:03:23 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 15:03:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
-2023-07-26 15:03:23 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 15:03:23 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 15:03:24 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:03:24 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002), Depa (truncated)...]
-2023-07-26 15:03:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 15:03:26 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
-2023-07-26 15:03:26 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
-2023-07-26 15:03:26 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:03:26 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002), Depa (truncated)...]
-2023-07-26 15:03:26 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
-2023-07-26 15:03:34 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:03:34 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:03:35 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=TS002)]
-2023-07-26 15:03:35 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:03:35 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/problem+json', given [*/*] and supported [application/problem+json]
-2023-07-26 15:03:35 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProblemDetail[type='about:blank', title='Bad Request', status=400, detail='Invalid request content.' (truncated)...]
-2023-07-26 15:03:35 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department): [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:03:35 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:18:49 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 15637 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 15:18:49 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 15:18:49 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 15:18:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 15:18:56 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 15:18:57 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 15:18:58 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 15:18:58 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 15:18:58 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.483 seconds (process running for 11.565)
-2023-07-26 15:19:05 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 15:19:05 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 15:19:05 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 15:19:05 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 15:19:05 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@289935f9
-2023-07-26 15:19:05 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@9b996af
-2023-07-26 15:19:05 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 15:19:05 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
-2023-07-26 15:19:05 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:19:05 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:19:05 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=TS002)]
-2023-07-26 15:19:06 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:19:06 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:19:06 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null}]
-2023-07-26 15:19:06 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department): [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:19:06 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:19:27 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:19:27 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:19:27 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:19:27 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:19:27 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:19:27 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:19:27 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:19:27 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:22:20 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 15907 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 15:22:20 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 15:22:20 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 15:22:28 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 15:22:29 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 15:22:29 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 15:22:30 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 15:22:30 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 15:22:31 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 11.963 seconds (process running for 13.072)
-2023-07-26 15:22:31 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 15:22:31 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 15:22:31 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 15:22:31 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 15:22:31 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6a1a559a
-2023-07-26 15:22:31 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@739327c7
-2023-07-26 15:22:31 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 15:22:31 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
-2023-07-26 15:22:31 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:22:31 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:22:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:22:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:22:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:22:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:22:32 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:22:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:24:50 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 16170 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 15:24:50 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 15:24:50 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 15:25:00 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 15:25:00 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 15:25:00 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 15:25:02 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 15:25:02 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 15:25:03 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 14.174 seconds (process running for 15.289)
-2023-07-26 15:25:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 15:25:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 15:25:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 15:25:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 15:25:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6ad2517c
-2023-07-26 15:25:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@666760e8
-2023-07-26 15:25:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 15:25:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-2023-07-26 15:25:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:25:03 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:25:04 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:25:04 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:25:04 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:25:04 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:25:04 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:25:04 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:25:05 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:25:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:25:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:25:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:25:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:25:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:25:05 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:25:05 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:18 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 16505 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 15:29:18 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 15:29:18 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 15:29:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 15:29:27 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 15:29:27 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 15:29:28 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 15:29:28 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 15:29:29 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 11.844 seconds (process running for 13.003)
-2023-07-26 15:29:29 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@21847373
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7af6b791
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 15:29:29 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:29 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:29:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:33 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:33 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:33 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:33 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:33 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:33 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:33 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:33 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:34 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:34 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:34 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:34 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:34 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:34 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:34 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:29:34 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:35 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:35 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:35 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:35 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:35 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:35 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:35 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:35 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:36 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:36 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:36 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:36 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:36 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:36 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:36 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:29:36 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:37 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:37 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:29:37 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:38 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:38 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:38 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:38 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:38 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:38 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:38 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:29:38 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:39 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:39 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:39 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:39 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:39 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:39 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:39 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:39 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:40 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:40 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:40 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:40 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:40 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:40 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:40 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:40 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:41 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:41 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:41 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:41 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:41 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:41 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:41 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:41 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:42 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:42 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:42 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:42 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:42 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:42 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:42 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:42 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:45 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:45 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:45 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:45 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:45 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:45 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:45 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:29:45 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:46 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:46 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:46 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:46 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:46 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:46 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:46 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:29:46 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:47 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:47 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:47 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:47 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:47 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:47 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:47 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:47 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:48 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:48 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:48 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:48 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:48 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:48 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:48 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:48 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:49 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:49 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:49 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:49 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:49 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:49 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:49 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:29:49 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:50 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:50 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:50 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:51 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:51 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:51 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:51 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:51 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:51 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:51 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:51 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:29:52 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:29:52 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:29:52 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:29:52 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:29:52 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:29:52 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:29:52 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:29:52 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:30:34 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 16769 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 15:30:34 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 15:30:34 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 15:30:43 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 15:30:43 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 15:30:44 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 15:30:45 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 15:30:45 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 15:30:45 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 12.625 seconds (process running for 14.11)
-2023-07-26 15:30:46 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@73c94317
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3e97e9dd
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 15:30:46 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{departmentName=Department can't be null, departmentCode=Department code can't be null}]
-2023-07-26 15:30:46 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:30:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:40:41 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 17395 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 15:40:41 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 15:40:41 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 15:40:48 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 15:40:48 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 15:40:49 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 15:40:50 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 15:40:50 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 15:40:50 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.537 seconds (process running for 11.591)
-2023-07-26 15:41:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@63003b7f
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@56fed449
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 15:41:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
-2023-07-26 15:41:03 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation
-	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:322)
-	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:245)
-	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136)
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
-	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
-	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
-	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1341)
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1152)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:566)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-2023-07-26 15:41:03 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] ]
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={}
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed Jul 26 15:41:03 IST 2023, status=400, error=Bad Request, trace=org.springframework.we (truncated)...]
-2023-07-26 15:41:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 400
-2023-07-26 15:44:14 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 17644 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
-2023-07-26 15:44:14 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-07-26 15:44:14 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
-2023-07-26 15:44:23 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-07-26 15:44:24 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-07-26 15:44:24 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
-2023-07-26 15:44:25 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-07-26 15:44:25 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-07-26 15:44:26 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 12.964 seconds (process running for 14.138)
-2023-07-26 15:44:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@59e86441
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@18439ae1
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-07-26 15:44:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/departments/1", parameters={}
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#updateDepartment(long, Department)
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Department(id=null, departmentName=null, departmentAddress=HYDERABAD India, departmentCode=null)]
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
-2023-07-26 15:44:39 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.test.test1.advice.ControllerAdvice#handleException(Exception, WebRequest)
-org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation
-	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:322)
-	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:245)
-	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136)
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
-	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
-	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
-	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1341)
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1152)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:566)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-2023-07-26 15:44:39 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.test.test1.entity.Department> com.test.test1.controller.DepartmentController.updateDepartment(long,com.test.test1.entity.Department) with 2 errors: [Field error in object 'department' on field 'departmentName': rejected value [null]; codes [NotBlank.department.departmentName,NotBlank.departmentName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentName,departmentName]; arguments []; default message [departmentName]]; default message [Department can't be null]] [Field error in object 'department' on field 'departmentCode': rejected value [null]; codes [NotBlank.department.departmentCode,NotBlank.departmentCode,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [department.departmentCode,departmentCode]; arguments []; default message [departmentCode]]; default message [Department code can't be null]] ]
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={}
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed Jul 26 15:44:39 IST 2023, status=400, error=Bad Request, trace=org.springframework.we (truncated)...]
-2023-07-26 15:44:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 400
+2023-08-07 10:32:12 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 7799 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 10:32:12 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 10:32:12 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 10:33:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 10:33:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 10:33:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 10:33:40 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 10:33:40 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 10:33:41 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 89.891 seconds (process running for 92.167)
+2023-08-07 10:42:32 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 8853 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 10:42:32 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 10:42:32 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 10:42:52 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 10:42:52 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 10:42:53 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 10:42:55 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 10:42:55 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 10:42:55 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 23.67 seconds (process running for 24.802)
+2023-08-07 10:54:57 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 41349 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 10:54:57 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 10:54:57 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 10:55:04 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 10:55:04 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 10:55:05 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 10:55:06 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 10:55:06 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 10:55:06 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.034 seconds (process running for 11.154)
+2023-08-07 10:55:28 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 41521 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 10:55:28 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 10:55:28 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 10:55:37 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 10:55:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 10:55:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 10:55:39 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 10:55:39 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 10:55:39 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 11.49 seconds (process running for 12.662)
+2023-08-07 10:55:39 [restartedMain] ERROR o.s.batch.core.step.AbstractStep - Encountered an error executing step step1 in job importUserJob
+org.springframework.batch.item.file.FlatFileParseException: Parsing error at line: 1 in resource=[class path resource [data.csv]], input=[id,firstname,lastname,email,profession]
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:194)
+	at org.springframework.batch.item.support.AbstractItemCountingItemStreamItemReader.read(AbstractItemCountingItemStreamItemReader.java:95)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.doRead(SimpleChunkProvider.java:110)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.read(SimpleChunkProvider.java:189)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider$1.doInIteration(SimpleChunkProvider.java:137)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:362)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:206)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:139)
+	at org.springframework.batch.core.step.item.SimpleChunkProvider.provide(SimpleChunkProvider.java:129)
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:69)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:389)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:313)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:256)
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:362)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:206)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:139)
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:241)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:227)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:153)
+	at org.springframework.batch.core.job.flow.JobFlowExecutor.executeStep(JobFlowExecutor.java:68)
+	at org.springframework.batch.core.job.flow.support.state.StepState.handle(StepState.java:68)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.resume(SimpleFlow.java:167)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.start(SimpleFlow.java:142)
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:137)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:316)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:157)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:148)
+	at org.springframework.batch.core.launch.support.TaskExecutorJobLauncher.run(TaskExecutorJobLauncher.java:70)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.execute(JobLauncherApplicationRunner.java:199)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.executeLocalJobs(JobLauncherApplicationRunner.java:178)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.launchJobFromProperties(JobLauncherApplicationRunner.java:166)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.run(JobLauncherApplicationRunner.java:161)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.run(JobLauncherApplicationRunner.java:156)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.test.test1.Test1Application.main(Test1Application.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'target' on field 'id': rejected value [id]; codes [typeMismatch.target.id,typeMismatch.id,typeMismatch.long,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [target.id,id]; arguments []; default message [id]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'long' for property 'id'; For input string: "id"]
+	at org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper.mapFieldSet(BeanWrapperFieldSetMapper.java:186)
+	at org.springframework.batch.item.file.mapping.DefaultLineMapper.mapLine(DefaultLineMapper.java:42)
+	at org.springframework.batch.item.file.FlatFileItemReader.doRead(FlatFileItemReader.java:190)
+	... 44 common frames omitted
+2023-08-07 10:56:41 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 41706 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 10:56:41 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 10:56:41 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 10:56:48 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 10:56:49 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 10:56:49 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 10:56:50 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 10:56:50 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 10:56:50 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.685 seconds (process running for 11.819)
+2023-08-07 11:00:13 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 42006 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 11:00:13 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 11:00:13 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 11:00:23 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 11:00:23 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 11:00:23 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 11:00:24 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 11:00:24 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 11:00:25 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 13.432 seconds (process running for 14.489)
+2023-08-07 11:31:04 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 43417 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 11:31:04 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 11:31:04 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 11:31:12 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 11:31:12 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 11:31:12 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 11:31:13 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 11:31:13 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 11:31:14 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.063 seconds (process running for 11.117)
+2023-08-07 11:31:14 [restartedMain] ERROR o.s.batch.core.step.AbstractStep - Encountered an error executing step step1 in job importUserJob
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [insert into user_batch(id,firstname,lastname,email,profession) values (?,?,?,?,?)]; Duplicate entry '104' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1538)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:667)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:691)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:1034)
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.batchUpdate(NamedParameterJdbcTemplate.java:373)
+	at org.springframework.batch.item.database.JdbcBatchItemWriter.write(JdbcBatchItemWriter.java:190)
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.writeItems(SimpleChunkProcessor.java:203)
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doWrite(SimpleChunkProcessor.java:170)
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.write(SimpleChunkProcessor.java:297)
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:227)
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:389)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:313)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:256)
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:362)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:206)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:139)
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:241)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:227)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:153)
+	at org.springframework.batch.core.job.flow.JobFlowExecutor.executeStep(JobFlowExecutor.java:68)
+	at org.springframework.batch.core.job.flow.support.state.StepState.handle(StepState.java:68)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.resume(SimpleFlow.java:167)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.start(SimpleFlow.java:142)
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:137)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:316)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:157)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:148)
+	at org.springframework.batch.core.launch.support.TaskExecutorJobLauncher.run(TaskExecutorJobLauncher.java:70)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.execute(JobLauncherApplicationRunner.java:199)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.executeLocalJobs(JobLauncherApplicationRunner.java:178)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.launchJobFromProperties(JobLauncherApplicationRunner.java:166)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.run(JobLauncherApplicationRunner.java:161)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.run(JobLauncherApplicationRunner.java:156)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.test.test1.Test1Application.main(Test1Application.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '104' for key 'PRIMARY'
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:816)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:418)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:795)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:127)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$4(JdbcTemplate.java:1047)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651)
+	... 44 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '104' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:795)
+	... 50 common frames omitted
+2023-08-07 11:40:50 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 43894 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 11:40:50 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 11:40:50 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 11:40:57 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 11:40:57 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 11:40:57 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 11:40:58 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 11:40:58 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 11:40:59 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 9.711 seconds (process running for 10.846)
+2023-08-07 11:41:29 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 44077 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 11:41:29 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 11:41:29 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 11:41:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 11:41:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 11:41:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 11:41:38 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 11:41:38 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 11:41:38 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.008 seconds (process running for 11.103)
+2023-08-07 11:41:42 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 44249 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 11:41:42 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 11:41:42 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 11:41:50 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 11:41:50 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 11:41:50 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 11:41:52 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 11:41:52 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 11:41:52 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.841 seconds (process running for 11.894)
+2023-08-07 11:41:52 [restartedMain] ERROR o.s.batch.core.step.AbstractStep - Encountered an error executing step step1 in job importUserJob
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [insert into user_batch(id,firstname,lastname,email,profession) values (?,?,?,?,?)]; Duplicate entry '104' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1538)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:667)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:691)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:1034)
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.batchUpdate(NamedParameterJdbcTemplate.java:373)
+	at org.springframework.batch.item.database.JdbcBatchItemWriter.write(JdbcBatchItemWriter.java:190)
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.writeItems(SimpleChunkProcessor.java:203)
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doWrite(SimpleChunkProcessor.java:170)
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.write(SimpleChunkProcessor.java:297)
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:227)
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:389)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:313)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:256)
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:362)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:206)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:139)
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:241)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:227)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:153)
+	at org.springframework.batch.core.job.flow.JobFlowExecutor.executeStep(JobFlowExecutor.java:68)
+	at org.springframework.batch.core.job.flow.support.state.StepState.handle(StepState.java:68)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.resume(SimpleFlow.java:167)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.start(SimpleFlow.java:142)
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:137)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:316)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:157)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:148)
+	at org.springframework.batch.core.launch.support.TaskExecutorJobLauncher.run(TaskExecutorJobLauncher.java:70)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.execute(JobLauncherApplicationRunner.java:199)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.executeLocalJobs(JobLauncherApplicationRunner.java:178)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.launchJobFromProperties(JobLauncherApplicationRunner.java:166)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.run(JobLauncherApplicationRunner.java:161)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner.run(JobLauncherApplicationRunner.java:156)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.test.test1.Test1Application.main(Test1Application.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '104' for key 'PRIMARY'
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:816)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:418)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:795)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:127)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$4(JdbcTemplate.java:1047)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651)
+	... 44 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '104' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:795)
+	... 50 common frames omitted
+2023-08-07 11:43:38 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 44647 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-07 11:43:38 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-07 11:43:38 [restartedMain] INFO  com.test.test1.Test1Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 11:43:45 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 11:43:45 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-07 11:43:45 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 13 mappings in 'requestMappingHandlerMapping'
+2023-08-07 11:43:46 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-07 11:43:46 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-07 11:43:47 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.001 seconds (process running for 11.023)
