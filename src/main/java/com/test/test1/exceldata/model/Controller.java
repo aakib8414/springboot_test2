@@ -3,6 +3,7 @@ package com.test.test1.exceldata.model;
 import com.test.test1.exceldata.model.helper.Helper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -32,7 +33,7 @@ public class Controller {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Need excel file format");
     }
 
-    @GetMapping("/user")
+    @GetMapping(path = "/user") //, produces = { "application/xml", "text/xml" }, consumes = MediaType.ALL_VALUE )
     public ResponseEntity<List<UserExcel>> getAllUser() {
         return ResponseEntity.ok(service.getAll());
     }

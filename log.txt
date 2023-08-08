@@ -1,0 +1,424 @@
+2023-08-08 16:31:18 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 11553 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:31:18 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:31:18 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:31:22 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:31:24 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:31:25 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:31:25 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:31:26 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:31:26 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:31:26 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 9.339 seconds (process running for 10.916)
+2023-08-08 16:31:30 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:31:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:31:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:31:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:31:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@13d557ec
+2023-08-08 16:31:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4c747ea4
+2023-08-08 16:31:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:31:30 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-08-08 16:31:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:31:30 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:31:31 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-08-08 16:31:31 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:31:31 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:14 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 11907 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:32:14 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:32:14 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:32:17 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:32:20 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:32:20 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:32:20 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:32:21 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:32:21 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:32:22 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 8.74 seconds (process running for 10.255)
+2023-08-08 16:32:23 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3ceb9e73
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@390ac981
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:32:23 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:32:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:26 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:32:26 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:32:26 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:26 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:32:26 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:27 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:32:27 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:32:27 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:27 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:32:27 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:28 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:32:28 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:32:28 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:28 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:32:28 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:29 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:32:29 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:32:29 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:29 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:32:29 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:35 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:32:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:32:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:32:35 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:36 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:32:36 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:32:36 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:36 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:32:36 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:41 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
+2023-08-08 16:32:41 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
+2023-08-08 16:32:41 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:41 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002), Depa (truncated)...]
+2023-08-08 16:32:41 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:43 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
+2023-08-08 16:32:43 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
+2023-08-08 16:32:43 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:43 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002), Depa (truncated)...]
+2023-08-08 16:32:43 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:32:48 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:32:48 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:32:48 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:32:48 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:32:48 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:34:01 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 12252 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:34:01 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:34:01 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:34:04 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:34:07 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:34:07 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:34:07 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:34:08 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:34:08 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:34:08 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 8.071 seconds (process running for 9.381)
+2023-08-08 16:34:15 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:34:15 [RMI TCP Connection(1)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:34:15 [RMI TCP Connection(1)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:34:15 [RMI TCP Connection(1)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:34:15 [RMI TCP Connection(1)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24181cf7
+2023-08-08 16:34:15 [RMI TCP Connection(1)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@621a6ffe
+2023-08-08 16:34:15 [RMI TCP Connection(1)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:34:15 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-08-08 16:35:36 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:35:36 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:35:36 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:35:36 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:35:36 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:35:37 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:35:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:35:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:35:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:35:37 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:35:38 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:35:38 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:35:38 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:35:38 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:35:38 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:37:57 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 13141 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:37:57 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:37:57 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:38:00 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:38:02 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configureContentNegotiation' defined in class path resource [com/test/test1/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'configureContentNegotiation' parameter 0: No qualifying bean of type 'org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-08-08 16:41:38 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 13650 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:41:38 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:41:38 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:41:41 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:41:44 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:41:44 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:41:44 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:41:45 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:41:45 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:41:46 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 8.861 seconds (process running for 10.418)
+2023-08-08 16:41:46 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:41:46 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:41:46 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:41:46 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:41:46 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@45444bec
+2023-08-08 16:41:46 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@24c5674
+2023-08-08 16:41:46 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:41:46 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-08-08 16:41:46 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:41:46 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:41:47 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:41:47 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:41:47 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:41:49 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:41:49 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:41:49 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:41:49 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:41:49 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:41:50 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:41:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:41:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:41:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:41:50 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:41:51 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:41:51 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:41:51 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:41:51 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:41:51 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:41:57 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:41:57 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:41:57 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:41:57 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:41:57 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:44:00 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 13999 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:44:00 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:44:00 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:44:03 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:44:06 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:44:07 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:44:07 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:44:08 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:44:08 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:44:09 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 9.834 seconds (process running for 11.109)
+2023-08-08 16:44:13 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@e093250
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@46fc71ca
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:44:13 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Aug 08 16:44:13 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-08-08 16:44:13 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2023-08-08 16:44:15 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:44:15 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-08-08 16:44:15 [http-nio-8080-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2023-08-08 16:44:15 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2023-08-08 16:44:15 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2023-08-08 16:44:15 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-08-08 16:44:15 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:44:15 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Aug 08 16:44:15 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-08-08 16:44:15 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2023-08-08 16:44:17 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:44:17 [http-nio-8080-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-08-08 16:44:17 [http-nio-8080-exec-4] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2023-08-08 16:44:17 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2023-08-08 16:44:17 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2023-08-08 16:44:17 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-08-08 16:44:17 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:44:17 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Aug 08 16:44:17 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-08-08 16:44:17 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2023-08-08 16:44:49 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 14440 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:44:49 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:44:49 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:44:52 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:44:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:44:55 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:44:55 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:44:56 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:44:56 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:44:57 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 8.612 seconds (process running for 9.856)
+2023-08-08 16:45:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:45:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:45:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:45:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:45:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2e763ea9
+2023-08-08 16:45:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@33e25ec
+2023-08-08 16:45:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:45:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2023-08-08 16:45:03 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:45:03 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:45:04 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml', given [*/*] and supported [application/xml, text/xml]
+2023-08-08 16:45:04 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:45:04 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:46:12 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 14754 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:46:12 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:46:12 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:46:15 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:46:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:46:18 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:46:18 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:46:19 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:46:19 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:46:19 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 8.266 seconds (process running for 9.554)
+2023-08-08 16:46:28 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:46:28 [RMI TCP Connection(5)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:46:28 [RMI TCP Connection(5)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:46:28 [RMI TCP Connection(5)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:46:28 [RMI TCP Connection(5)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3370920d
+2023-08-08 16:46:28 [RMI TCP Connection(5)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3922fdb9
+2023-08-08 16:46:28 [RMI TCP Connection(5)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:46:28 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-08-08 16:46:48 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:46:48 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:46:48 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:46:48 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:46:48 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:53:52 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 15368 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:53:52 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:53:52 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:53:56 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:53:59 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:53:59 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:53:59 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:54:00 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:54:01 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:54:02 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.182 seconds (process running for 11.657)
+2023-08-08 16:54:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:54:09 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:54:09 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:54:09 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:54:09 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4ae61361
+2023-08-08 16:54:09 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4d5233d7
+2023-08-08 16:54:09 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:54:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-08-08 16:54:43 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:54:43 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:54:43 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:54:43 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:54:43 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:55:00 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:55:00 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:55:00 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:55:00 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:55:00 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:55:01 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:55:01 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:55:01 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:55:01 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:55:01 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:55:08 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user/?mediaType=xml", parameters={masked}
+2023-08-08 16:55:08 [http-nio-8080-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-08-08 16:55:08 [http-nio-8080-exec-6] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2023-08-08 16:55:08 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2023-08-08 16:55:08 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error?mediaType=xml", parameters={masked}
+2023-08-08 16:55:08 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-08-08 16:55:08 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:55:08 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Aug 08 16:55:08 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-08-08 16:55:08 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2023-08-08 16:55:37 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:55:37 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:55:37 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:55:37 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:55:37 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:55:38 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:55:38 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:55:38 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:55:38 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:55:38 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:57:01 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 15784 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:57:01 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:57:01 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:57:05 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:57:08 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:57:08 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:57:08 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:57:09 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:57:09 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:57:10 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 10.276 seconds (process running for 11.788)
+2023-08-08 16:57:17 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:57:17 [RMI TCP Connection(3)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:57:17 [RMI TCP Connection(3)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:57:17 [RMI TCP Connection(3)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:57:17 [RMI TCP Connection(3)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3f3dff92
+2023-08-08 16:57:17 [RMI TCP Connection(3)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@691c58d9
+2023-08-08 16:57:17 [RMI TCP Connection(3)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:57:17 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-08-08 16:57:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:57:29 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:57:29 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [application/xml] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:57:29 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:57:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:57:42 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user", parameters={}
+2023-08-08 16:57:42 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:57:42 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:57:42 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:57:42 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:57:48 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:57:48 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:57:48 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [application/xml] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:57:48 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:57:48 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:58:14 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:58:14 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:58:14 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [application/xml] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:58:14 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:58:14 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:59:06 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 16128 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:59:06 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:59:06 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:59:09 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:59:13 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:59:13 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:59:13 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:59:14 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:59:14 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:59:15 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 9.143 seconds (process running for 10.503)
+2023-08-08 16:59:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:59:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:59:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:59:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:59:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3afddaf0
+2023-08-08 16:59:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2341a3b8
+2023-08-08 16:59:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:59:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-08-08 16:59:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:59:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:59:16 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:59:16 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:59:16 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:59:19 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:59:19 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:59:19 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:59:19 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:59:19 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:59:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 16:59:20 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:59:20 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:59:20 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:59:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:59:27 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?media=xml", parameters={masked}
+2023-08-08 16:59:27 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:59:27 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [application/xml] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:59:27 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:59:27 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 16:59:49 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 16410 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 16:59:49 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 16:59:49 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 16:59:52 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 16:59:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 16:59:56 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 16:59:56 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 16:59:57 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 16:59:57 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 16:59:58 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 8.939 seconds (process running for 10.428)
+2023-08-08 16:59:58 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:59:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 16:59:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 16:59:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 16:59:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7b45d11c
+2023-08-08 16:59:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@67c7ef30
+2023-08-08 16:59:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 16:59:58 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-08-08 16:59:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?media=xml", parameters={masked}
+2023-08-08 16:59:58 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 16:59:59 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 16:59:59 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 16:59:59 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 17:00:06 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 17:00:06 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 17:00:06 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [application/xml] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 17:00:06 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 17:00:06 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 17:33:48 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 17:33:48 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 17:33:48 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [application/xml] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 17:33:48 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 17:33:48 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
