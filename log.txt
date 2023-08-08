@@ -422,3 +422,53 @@
 2023-08-08 17:33:48 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [application/xml] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
 2023-08-08 17:33:48 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
 2023-08-08 17:33:48 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 17:57:58 [restartedMain] INFO  com.test.test1.Test1Application - Starting Test1Application using Java 20 with PID 18318 (/home/aakib/Pictures/test/test1/target/classes started by aakib in /home/aakib/Pictures/test/test1)
+2023-08-08 17:57:58 [restartedMain] DEBUG com.test.test1.Test1Application - Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-08-08 17:57:58 [restartedMain] INFO  com.test.test1.Test1Application - The following 1 profile is active: "dev"
+2023-08-08 17:58:01 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'serverHttpObservationFilter' configured for use
+2023-08-08 17:58:04 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08 17:58:04 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-08 17:58:04 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+2023-08-08 17:58:05 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-08-08 17:58:05 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-08 17:58:06 [restartedMain] INFO  com.test.test1.Test1Application - Started Test1Application in 8.174 seconds (process running for 9.559)
+2023-08-08 17:58:13 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 17:58:13 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2023-08-08 17:58:13 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2023-08-08 17:58:13 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2023-08-08 17:58:13 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@ffb4f93
+2023-08-08 17:58:13 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@35708153
+2023-08-08 17:58:13 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-08 17:58:13 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2023-08-08 17:58:33 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 17:58:33 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 17:58:33 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [application/xml] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 17:58:33 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 17:58:33 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 17:59:07 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=xml", parameters={masked}
+2023-08-08 17:59:07 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 17:59:07 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [application/xml] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 17:59:07 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 17:59:07 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 17:59:12 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user?mediaType=json", parameters={masked}
+2023-08-08 17:59:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.exceldata.model.Controller#getAllUser()
+2023-08-08 17:59:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 17:59:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[UserExcel(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession= (truncated)...]
+2023-08-08 17:59:12 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 18:00:09 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/file/upload", parameters={multipart}
+2023-08-08 18:00:09 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.FileController#fileUpload(MultipartFile, String)
+2023-08-08 18:00:09 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 18:00:09 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [FileResponse(fileName=null, message=Image uploaded failed due to internal errors)]
+2023-08-08 18:00:09 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2023-08-08 18:00:31 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/file/upload", parameters={multipart}
+2023-08-08 18:00:31 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.FileController#fileUpload(MultipartFile, String)
+2023-08-08 18:01:14 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s543ms346µs854ns).
+2023-08-08 18:01:27 [http-nio-8080-exec-7] INFO  c.t.test1.controller.FileController - JSON USER:User(id=100, firstname=Mathilda, lastname=Abram, email=Mathilda.Abram@yopmail.com, profession=developer)
+2023-08-08 18:01:29 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 18:01:29 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [FileResponse(fileName=marguerite-729510_1280.jpg, message=Uploaded successfully)]
+2023-08-08 18:01:29 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2023-08-08 18:03:42 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/departments", parameters={}
+2023-08-08 18:03:42 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.test.test1.controller.DepartmentController#getAllDepartments()
+2023-08-08 18:03:42 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+2023-08-08 18:03:42 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Department(id=1, departmentName=CSE, departmentAddress=HYDERABAD India, departmentCode=TS002), Depa (truncated)...]
+2023-08-08 18:03:42 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
