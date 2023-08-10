@@ -1,5 +1,6 @@
 package com.test.test1.exceldata.model;
 
+import com.test.test1.exceldata.model.helper.DbToExcelHelper;
 import com.test.test1.exceldata.model.helper.Helper;
 import com.test.test1.exceldata.model.repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,6 +9,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.List;
 
@@ -39,5 +41,10 @@ public class UserService {
             return false;
         }
 
+    }
+
+    public ByteArrayInputStream getDataFromDb() throws IOException {
+        List<UserExcel> list = userRepo.findAll();
+        return DbToExcelHelper.dataToExcel(list);
     }
 }
