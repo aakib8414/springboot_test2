@@ -19,18 +19,18 @@ public class UserService {
     @Autowired
     private UserRepo userRepo;
 
-    @CacheEvict(value = "userList", allEntries = true)
+//    @CacheEvict(value = "userList", allEntries = true)
     public List<UserExcel> saveAll(MultipartFile file) throws IOException {
         List<UserExcel> userList = Helper.convert(file.getInputStream());
         return userRepo.saveAll(userList);
     }
 
-    @Cacheable(value = "userList")
+//    @Cacheable(value = "userList")
     public List<UserExcel> getAll() {
         return userRepo.findAll();
     }
 
-    @CacheEvict(value = "userList", allEntries = true)
+//    @CacheEvict(value = "userList", allEntries = true)
     public boolean deletedAll() {
         if (userRepo.findAll().size() > 0) {
             userRepo.deleteAll();
