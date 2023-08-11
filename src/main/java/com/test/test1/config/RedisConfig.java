@@ -1,5 +1,7 @@
 package com.test.test1.config;
 
+import com.cloudinary.Cloudinary;
+import com.cloudinary.utils.ObjectUtils;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -17,6 +19,11 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializationContext;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
+
+import java.util.HashMap;
+import java.util.Properties;
 
 @EnableCaching
 @Configuration
@@ -53,5 +60,34 @@ public class RedisConfig extends CachingConfigurerSupport {
     @Bean
     public ModelMapper modelMapper(){
         return new ModelMapper();
+    }
+
+    @Bean
+    public Cloudinary getCloudinary() {
+//        Cloudinary cloudinary = new Cloudinary();
+        HashMap map = new HashMap<>();
+        map.put("cloud_name", "dzqmby709");
+        map.put("api_key", "935723469619365");
+        map.put("api_secret", "6YtLM-_S2VMljsK-i6smlIF3UmU");
+        map.put("secure", true);
+       return new Cloudinary(map);
+    }
+
+    @Bean
+    public JavaMailSender javaMailSender(){
+        JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+        mailSender.setHost("smtp.gmail.com");
+        mailSender.setPort(587);
+
+        mailSender.setUsername("aakib@binmile.com");
+        mailSender.setPassword("gugyqkzvrsbdomla");
+
+        Properties props = mailSender.getJavaMailProperties();
+        props.put("mail.transport.protocol", "smtp");
+        props.put("mail.smtp.auth", "true");
+        props.put("mail.smtp.starttls.enable", "true");
+        props.put("mail.debug", "true");
+
+        return mailSender;
     }
 }
