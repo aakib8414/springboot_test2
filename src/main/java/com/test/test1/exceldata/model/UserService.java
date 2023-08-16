@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.ByteArrayInputStream;
@@ -46,5 +47,12 @@ public class UserService {
     public ByteArrayInputStream getDataFromDb() throws IOException {
         List<UserExcel> list = userRepo.findAll();
         return DbToExcelHelper.dataToExcel(list);
+    }
+
+    //    getData using stored procedure
+    @Transactional
+    public List<UserExcel> getUserListByProfession(String pName) {
+        List<UserExcel> userByProfessionList = userRepo.getUserByProfession(pName);
+        return userByProfessionList;
     }
 }

@@ -12,6 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -67,5 +68,11 @@ public class Controller {
                 .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=users_" + currentDateTime + ".xlsx")
                 .contentType(MediaType.parseMediaType("application/vnd.ms-excel"))
                 .body(inputStreamResource);
+    }
+
+    @GetMapping("user/procedure/{byProfession}")
+    public ResponseEntity<?> getUserByProfession(@PathVariable("byProfession") String pName) throws IOException {
+        List<UserExcel> userListByProfession = service.getUserListByProfession(pName);
+        return ResponseEntity.ok(userListByProfession);
     }
 }
